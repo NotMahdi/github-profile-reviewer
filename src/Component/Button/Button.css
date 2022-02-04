@@ -1,0 +1,12 @@
+.icon{
+    color: #212121;
+    text-shadow: 1px 1px 1px #ccc;
+    font-size: 1em;
+}
+
+.loading{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+}
+
