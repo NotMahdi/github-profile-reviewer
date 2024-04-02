@@ -32,7 +32,7 @@ class App extends Component {
   themeIconModeHandler =() =>{
     const themeToggle = this.state.darkMode
     this.setState({darkMode: !themeToggle}, this.localDataHandler)
-    this.props.clicked
+    this.props.clicked;
   }
   getUserNameHandler =(event)=>{
      this.setState({
